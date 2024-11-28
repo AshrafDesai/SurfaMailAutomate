@@ -1,6 +1,6 @@
 # Email Campaign Script for SurfaTech Integrated Solutions  
 
-This Python script enables the sending of professional, visually appealing advertising emails to a large number of recipients. It is designed for SurfaTech Integrated Solutions to showcase their innovative surface treatment solutions, including powder coating, spray gun sales, and customized services.  
+This Python script enables the sending of professional, visually appealing advertising emails to a large number of recipients. It is designed for **SurfaTech Integrated Solutions** to showcase their innovative surface treatment solutions, including powder coating, spray gun sales, and customized services. The email subject is **"Enhance Your Surface Treatment with SurfaTech Integrated Solutions"** and the body of the email contains a beautifully designed HTML layout that highlights the company's key services and offerings.
 
 ---
 
@@ -24,27 +24,25 @@ To use this script, ensure you have the following installed and configured:
 ## Setup  
 
 1. **Clone or Download the Script**  
-   Clone this repository or download the script to your local system.  
+   Clone this repository or download the script to your local system.
 
 2. **Install Required Libraries**  
-   This script uses Python's built-in libraries (`smtplib` and `email`), so no additional installation is necessary.  
+   This script uses Python's built-in libraries (`smtplib` and `email`), so no additional installation is necessary.
 
 3. **Set Up an Email Account**  
    Use a Gmail account to send emails. Ensure you have:  
    - Enabled **Less Secure App Access** or generated an **App Password** for security.  
-   - Your email and app password ready for use.  
+   - Your email and app password ready for use.
 
 4. **Prepare the Recipient List**  
-   Add recipient email addresses in the `recipient_list` variable within the script.  
+   Add recipient email addresses in the `recipient_list` variable within the script.
 
 ---
 
 ## Usage  
 
 ### 1. Update Sender Information  
-Replace the placeholder values in the script with your email credentials:  
+Replace the placeholder values in the script with your email credentials:
 ```python
 sender_email = "your_email@gmail.com"
 sender_password = "your_app_password"
----
-2.**Customize the Email Content**
